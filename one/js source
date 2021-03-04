@@ -1,1 +1,6 @@
+css: fontsize, display, color, background, background-color, background-image, background-position, background-repeat, background-size, box-shadow, box-sizing, border, 
+     border-bottom, border-bottom-color, border-bottom-left-radius, border-bottom-right-radius, border-bottom-style, border-bottom-width, border-image-repeat, 
+     border-image-slice
 
+Js: fontSize, display, color, background, backgroundAttachment, backgroundColor, backgroundImage, backgroundPosition, backgroundRepeat, backgroundSize, boxShadow, boxSizing, 
+    Border, borderBottom, borderBottomColor, borderBottomLeftRadius, borderBottomRightRadius, borderBottomStyle, borderBottomWidth, borderImageRepeat, borderImageSlice
