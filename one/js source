@@ -4,3 +4,24 @@ css: fontsize, display, color, background, background-color, background-image, b
 
 Js: fontSize, display, color, background, backgroundAttachment, backgroundColor, backgroundImage, backgroundPosition, backgroundRepeat, backgroundSize, boxShadow, boxSizing, 
     Border, borderBottom, borderBottomColor, borderBottomLeftRadius, borderBottomRightRadius, borderBottomStyle, borderBottomWidth, borderImageRepeat, borderImageSlice
+
+/*==================
+    Example 01
+====================*/
+
+Html:
+
+<p id="demo">A Paragraph</p>
+
+<button type="button" onclick="myFunction()">Click Me</button>
+
+js:
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
+
+
+
+
+
