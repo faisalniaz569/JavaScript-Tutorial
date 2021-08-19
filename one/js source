@@ -54,7 +54,23 @@ function myFunction() {
 
 }
 
+/*==================
+    Example 04
+====================*/
 
+Html:
+
+<p id="demo"></p>
+
+js:
+
+let x, y, z;
+
+x = 5;
+y = 6;
+z = x + y; // Statement
+
+document.getElementById("demo").innerHTML = z;
 
 
 
