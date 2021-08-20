@@ -78,7 +78,155 @@ document.getElementById("demo").innerHTML = "The value of z is:" + z + ".";
 var, let, const, switch, for, return, function, try, if
 
 
+/*==================
+    Example 05
+====================*/
 
+Html:
+
+<p id="demo"></p>
+
+js:
+
+document.getElementById("demo").innerHTML = "John " + " " + "Doe"; // Syntax
+
+
+/*
+    Hyphens are not allowed:
+    
+    first-name, last-name, master-card, inter-city
+    
+    Allowed =>
+    
+    Underscore:
+
+    first_name, last_name, master_card, inter_city.
+
+    Upper Camel Case (Pascal Case):
+
+    FirstName, LastName, MasterCard, InterCity.
+
+    Lower Camel Case:
+
+    JavaScript programmers tend to use camel case that starts with a lowercase letter:
+
+    firstName, lastName, masterCard, interCity.
+    
+*/
+
+/*==================
+    Example 06
+====================*/
+// Variables
+
+Html:
+
+<p id="demo"></p>
+
+js:
+
+var price1 = 5;
+var price2 = 6;
+var Total = price1 + price2;
+
+document.getElementById("demo").innerHTML = "The Total is: " + Total;
+
+OR,
+
+var price1, price2, Total;
+
+price1 = 5;
+price2 = 6;
+
+Total = price1 + price2;
+
+document.getElementById("demo").innerHTML = "The Total is: " + Total;
+
+
+/*==================
+    Example 07
+====================*/
+// Variables
+
+Html:
+
+<p id="demo"></p>
+
+js:
+
+var carName;
+
+carName = "Volvo";
+
+document.getElementById("demo").innerHTML = carName;
+
+
+/*==================
+    Example 08
+====================*/
+// Variables
+
+Html:
+
+<p id="demo"></p>
+
+js:
+
+var x;
+
+x = "5" + 2 + 3;
+
+document.getElementById("demo").innerHTML = x;
+
+or,
+
+var x;
+
+x = 2 + 3 + "5";
+
+document.getElementById("demo").innerHTML = x;
+
+
+/*==================
+    Example 09
+====================*/
+
+/*
+
+    Remember that JavaScript identifiers (names) must begin with:
+
+    A letter (A-Z or a-z)
+    A dollar sign ($)
+    Or an underscore (_)
+
+*/
+
+Html:
+
+<p id="demo"></p>
+
+js:
+
+var $, $dollarSign;
+
+$ = 2;
+$myMoney = 5;
+
+document.getElementById("demo").innerHTML = $ + $myMoney;
+
+/*==================
+    Example 10
+====================*/
+
+Html:
+
+<p id="demo"></p>
+
+js:
+
+var _x = 2;
+var _100 = 5;
+document.getElementById("demo").innerHTML = _x + _100;
 
 
 
