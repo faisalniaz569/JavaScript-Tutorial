@@ -229,7 +229,30 @@ var _100 = 5;
 document.getElementById("demo").innerHTML = _x + _100;
 
 
+/*==================
+    Example 11
+====================*/
 
+var x = 10;
+
+{
+    var x = 2;
+}
+
+document.getElementById("demo").innerHTML = x;
+
+
+/*==================
+    Example 12
+====================*/
+
+let x = 10;
+
+{
+    let x = 2;
+}
+
+document.getElementById("demo").innerHTML = x;
 
 
 
