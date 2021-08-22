@@ -255,5 +255,73 @@ let x = 10;
 document.getElementById("demo").innerHTML = x;
 
 
+/*==================
+    Example 13
+====================*/
+
+carName = "Volvo";
+
+var carName;
+
+document.getElementById("demo").innerHTML = carName;
+
+/*==================
+    Example 14
+====================*/
+
+const cars = ['Volvo', 'BMW', 'Saab'];
+
+document.getElementById("demo").innerHTML = cars[1];
+
+/*==================
+    Example 15
+====================*/
+
+const cars = ['Volvo', 'BMW', 'Saab'];
+
+// change an element
+cars[0] = "Toyota";
+
+// push an element
+cars.push("Audi");
+
+document.getElementById("demo").innerHTML = cars;
+
+/*==================
+    Example 16
+====================*/
+
+// Create an object:
+const car = {
+    type: "Fiat",
+    model: "500",
+    color: "white"
+};
+
+// Change a property:
+car.color = "red";
+
+// Add a property:
+car.owner = "Johnson";
+
+// Display the property:
+document.getElementById("demo").innerHTML = "Car owner is " + car.owner;
+
+
+/*==================
+    Example 17
+====================*/
+
+const x = 10;
+// Here x is 10
+
+{
+    const x = 2;
+    // Here x is 2
+}
+
+// Here x is 10
+document.getElementById("demo").innerHTML = "x is " + x;
+
 
 
