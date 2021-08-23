@@ -323,5 +323,56 @@ const x = 10;
 // Here x is 10
 document.getElementById("demo").innerHTML = "x is " + x;
 
+/*==================
+    Example 18
+====================*/
+
+let x = 10,
+    y = 5,
+    z = x + y;
+
+document.getElementById("demo").innerHTML = z;
+
+
+/*==================
+    Example 19
+====================*/
+
+// Assignment Operator
+
+var x = 10;
+x += 5;
+
+document.getElementById("demo").innerHTML = x;
+
+
+/*==================
+    Example 20
+====================*/
+
+// String Operator
+
+let text1 = "John";
+let text2 = "Doe";
+let text3 = text1 + " " + text2
+
+document.getElementById("demo").innerHTML = text3;
+
+/*==================
+    Example 21
+====================*/
+
+// The += assignment operator can also be used to add (concatenate) strings:
+
+let text1 = "What a very";
+text1 += " nice day";
+
+
+document.getElementById("demo").innerHTML = text1;
+
+
+
+
+
 
 
