@@ -370,7 +370,17 @@ text1 += " nice day";
 
 document.getElementById("demo").innerHTML = text1;
 
+/*==================
+    Example 22
+====================*/
 
+// Add String and Number
+
+let x = 5 + 5;
+let y = "5" + 5;
+let z = "Hello" + 5;
+
+document.getElementById("demo").innerHTML = x + "<br>" + y + "<br>" + z;
 
 
 
