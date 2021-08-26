@@ -383,6 +383,12 @@ let z = "Hello" + 5;
 document.getElementById("demo").innerHTML = x + "<br>" + y + "<br>" + z;
 
 
+/*
 
+JS Events:
+
+onchange, onclick, onmouseover, onmouseout, onkeydown, onload
+
+*/
 
 
