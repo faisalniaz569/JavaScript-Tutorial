@@ -391,4 +391,63 @@ onchange, onclick, onmouseover, onmouseout, onkeydown, onload
 
 */
 
+/*==================
+    Example 23
+====================*/
+
+// Strings
+
+Html:
+
+<p id="demo"></p>
+
+Js:
+
+let text = "John Doe";
+document.getElementById("demo").innerHTML = text;
+
+/*==================
+    Example 24
+====================*/
+
+Html:
+
+<p id="demo"></p>
+
+Js:
+
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = text.length;
+
+
+/*==================
+    Example 25
+====================*/
+
+Html:
+
+<p id="demo"></p>
+
+Js:
+
+let text = "We are the so-called \"Vikings\" from the north.";
+document.getElementById("demo").innerHTML = text;
+
+
+/*==================
+    Example 26
+====================*/
+
+Html:
+
+<p id="demo"></p>
+
+Js:
+
+let x = "John"; // x is a string
+let y = new String("John"); // y is an object
+
+document.getElementById("demo").innerHTML =
+    typeof x + "<br>" + typeof y;
+
 
