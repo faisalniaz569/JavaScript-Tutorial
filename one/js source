@@ -451,3 +451,232 @@ document.getElementById("demo").innerHTML =
     typeof x + "<br>" + typeof y;
 
 
+/*==================
+    Example 27
+====================*/
+
+Html:
+
+<p id="demo"></p>
+
+Js:
+
+let text = 'It\'s allright.';
+
+document.getElementById("demo").innerHTML = text;
+
+/*==================
+    Example 28
+====================*/
+
+Html:
+
+<p id="demo"></p>
+
+js:
+
+/*
+
+Extracting String Parts
+There are 3 methods for extracting a part of a string:
+
+slice(start, end)
+substring(start, end)
+substr(start, length)
+
+*/
+
+
+let str = "Apple, Banana, Kiwi";
+
+document.getElementById("demo").innerHTML = str.slice(7, 13);
+
+
+OR,
+
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.slice(-12, -6);
+
+OR,
+
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.slice(7);
+
+
+OR,
+
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.slice(-12);
+
+
+/*==================
+    Example 29
+====================*/
+
+Html:
+
+<p id="demo"></p>
+
+js:
+
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.substring(7, 13);
+
+or,
+
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.substr(7, 6);
+
+or,
+
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.substr(7);
+
+or,
+
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo").innerHTML = str.substr(-4);
+
+/*==================
+    Example 30
+====================*/
+
+Html:
+
+<!--JS Strings -->
+
+<p id="demo">I learn W3Schools.</p>
+<button type="button" name="button" onclick="myFunction()">Click Me</button>
+
+js:
+
+/*
+
+Replacing String Content
+
+*/
+
+
+let str = "I learn W3Schools.";
+
+function myFunction() {
+    let x = document.getElementById("demo").innerHTML;
+    document.getElementById("demo").innerHTML = x.replace("W3Schools", "JavaScript");
+}
+
+/*==================
+    Example 31
+====================*/
+
+/*
+
+UpperCase
+
+*/
+
+Html:
+
+<p id="demo">I learn W3Schools.</p>
+<button type="button" name="button" onclick="myFunction()">Click Me</button>
+
+JS:
+
+function myFunction() {
+    let x = document.getElementById("demo").innerHTML;
+    document.getElementById("demo").innerHTML = x.toUpperCase();
+}
+
+/*==================
+    Example 32
+====================*/
+<!-- LowerCase -->
+
+Html:
+
+<p id="demo">I LEARN W3SCHOOLS.</p>
+<button type="button" name="button" onclick="myFunction()">Click Me</button>
+
+JS:
+
+function myFunction() {
+    let x = document.getElementById("demo").innerHTML;
+    document.getElementById("demo").innerHTML = x.toLowerCase();
+}
+
+
+/*==================
+    Example 33
+====================*/
+
+<!-- Concat -->
+
+Html:
+
+<p id="demo"></p>
+
+Js:
+
+let text1 = "Hello";
+let text2 = "World!";
+let text3 = text1.concat(" ", text2);
+
+document.getElementById("demo").innerHTML = text3;
+
+/*==================
+    Example 34
+====================*/
+
+Html:
+
+<p id="demo"></p>
+
+Js:
+
+let text = "Hello World!!";
+document.getElementById("demo").innerHTML = text.trim();
+
+/*==================
+    Example 35
+====================*/
+
+Html:
+
+<!-- Converting a String to an Array -->
+
+<p id="demo"></p>
+
+Js:
+
+let text = "a, b, c, d, e";
+const myArray = text.split(",");
+
+document.getElementById("demo").innerHTML = myArray[0];
+
+/*==================
+    Example 36
+====================*/
+
+Html:
+
+<!-- Converting a String to an Array -->
+
+<p id="demo"></p>
+
+Js:
+
+let text = "Hello";
+const myArr = text.split("");
+
+text = "";
+for (let i = 0; i < myArr.length; i++) {
+    text += myArr[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+
+
+
+
+
+
+
