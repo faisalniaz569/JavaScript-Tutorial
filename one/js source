@@ -4,6 +4,8 @@ css: fontsize, display, color, background, background-color, background-image, b
 
 Js: fontSize, display, color, background, backgroundAttachment, backgroundColor, backgroundImage, backgroundPosition, backgroundRepeat, backgroundSize, boxShadow, boxSizing, 
     Border, borderBottom, borderBottomColor, borderBottomLeftRadius, borderBottomRightRadius, borderBottomStyle, borderBottomWidth, borderImageRepeat, borderImageSlice
+    
+/*jslint nomen: true  */    
 
 /*==================
     Example 01
