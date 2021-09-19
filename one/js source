@@ -693,6 +693,35 @@ function toCelcius(f) {
 
 document.getElementById("demo").innerHTML = toCelcius(77);
 
+/*==================
+    Example 38
+====================*/
+
+/*
+
+String Search is four types:
+
+str.indexOf(),
+str.lastIndexOf(),
+str.startsWith(),
+str.endsWith()
+
+
+*/
+
+<p id="demo"></p>
+
+js:
+
+let str = "Please locate where 'locate' occurs!";
+
+document.getElementById("demo").innerHTML = str.indexOf("locate");
+
+
+
+
+
+
 
 
 
