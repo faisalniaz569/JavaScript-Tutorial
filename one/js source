@@ -6,6 +6,9 @@ Js: fontSize, display, color, background, backgroundAttachment, backgroundColor,
     Border, borderBottom, borderBottomColor, borderBottomLeftRadius, borderBottomRightRadius, borderBottomStyle, borderBottomWidth, borderImageRepeat, borderImageSlice
     
 /*jslint nomen: true  */    
+/*jslint bitwise: true*/
+/*jslint plusplus: true */
+
 
 /*==================
     Example 01
