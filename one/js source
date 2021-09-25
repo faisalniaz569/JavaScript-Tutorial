@@ -755,8 +755,42 @@ document.getElementById("demo").innerHTML =
     Number(" 10  ") + "<br>" +
     Number("John");
 
+/*==================
+    Example 41
+====================*/
+// Arrays
 
 
+<p id="demo"></p>
+
+JS:
+
+var NewFruits = {
+    "const": "fruits"
+};
+
+var FLen = {
+    "let": "fLen"
+};
+
+var Text = {
+    "let": "text"
+};
+
+var i = {
+    "let": "i"
+};
+
+NewFruits = ["Banana", "Orange", "Apple", "Mango"];
+FLen = NewFruits.length;
+
+Text = "<ul>";
+for (i = 0; i < FLen; i++) {
+    Text += "<li>" + NewFruits[i] + "</li>";
+}
+Text += "</ul>";
+
+document.getElementById("demo").innerHTML = Text;
 
 
 
