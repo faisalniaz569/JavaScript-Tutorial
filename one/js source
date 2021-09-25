@@ -721,6 +721,43 @@ let str = "Please locate where 'locate' occurs!";
 document.getElementById("demo").innerHTML = str.indexOf("locate");
 
 
+/*==================
+    Example 39
+====================*/
+Numbers -
+
+<p id="demo"></p>
+
+js:
+
+var result = {
+    "const": "res"
+};
+
+var x = 123;
+result = (100 + 23).valueOf();
+
+document.getElementById('demo').innerHTML = result;
+
+/*==================
+    Example 40
+====================*/
+
+<p id="demo"></p>
+
+
+document.getElementById("demo").innerHTML =
+    Number(true) + "<br>" +
+    Number(false) + "<br>" +
+    Number("10") + "<br>" +
+    Number("  10") + "<br>" +
+    Number("10  ") + "<br>" +
+    Number(" 10  ") + "<br>" +
+    Number("John");
+
+
+
+
 
 
 
