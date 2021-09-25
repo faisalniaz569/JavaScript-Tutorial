@@ -792,6 +792,43 @@ Text += "</ul>";
 
 document.getElementById("demo").innerHTML = Text;
 
+/*==================
+    Example 42
+====================*/
+
+
+<p id="demo"></p>
+
+js:
+
+var myFunction;
+
+var NewFruits = {
+    "const": "fruits"
+};
+
+var Text = {
+    "let": "text"
+};
+
+NewFruits = ["Banana", "Orange", "Apple", "Mango"];
+
+Text = "<ul>";
+NewFruits.forEach(myFunction);
+Text += "</ul>";
+
+document.getElementById("demo").innerHTML = Text;
+
+function myFunction(value) {
+    Text += "<li>" + value + "</li>";
+}
+
+
+
+
+
+
+
 
 
 
